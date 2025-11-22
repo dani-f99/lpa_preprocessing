@@ -6,26 +6,22 @@
 -----------------------------
 -----------------------------
 --- General-Information -----
-This program aim is to prepare input table which can be used as input for the LPA analysis program. 
-The program first pulls the datasets from ImmuneDB tables located in MySQL server (if different server is in use, may need to change connector),
-then the datasets are divided by metadata, processed, merged and modified. The final output dataframe (exported as csv) that can be used as LPA input. 
+This program aims to prepare an input table for the LPA analysis program. It first extracts datasets from ImmuneDB 
+tables on a MySQL server (note: the connector may need adjustment if a different server is used). The datasets are 
+then stratified by metadata, processed, merged, and modified. The final output is a dataframe, exported as a CSV, which 
+serves as the input for LPA.
 -----------------------------
 -----------------------------
 -----------------------------
 -----------------------------
 --- Required-Python-Modules -
-1.  natsort
-2.  math
-3.  seaborn
-4.  matplotlib
-5.  numpy
-6.  sklearn
-7.  scipy
-8.  typing
-9.  pathlib
-10. itertools
-11. copy
-12. altair
+1. natsort
+2. seaborn
+3. matplotlib
+4. numpy
+5. sklearn
+6. scipy
+7. altair
 -----------------------------
 -----------------------------
 -----------------------------
